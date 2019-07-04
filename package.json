@@ -1,0 +1,36 @@
+{
+  "name": "koa-template",
+  "version": "1.0.0",
+  "description": "koa template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --exec npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miujg/koa-template.git"
+  },
+  "author": "jgmiu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miujg/koa-template/issues"
+  },
+  "homepage": "https://github.com/miujg/koa-template#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-jwt": "^3.5.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^2.8.0",
+    "mongoose": "^5.1.1",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
